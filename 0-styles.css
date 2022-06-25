@@ -1,17 +1,37 @@
 @import "normalize.css";
 
-body {
-    max-width: 1400px;
-    margin: 0 auto !important;
+:root {
+    --color-primary: #D73953;
 }
 
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+/* body style
+   ============================= */
+
+body {
+    max-width: 1400px;
+}
+
+/* Header styles
+   ============================= */
 header {
     background-color: blue;
     display: flex;
     width: 85%;
+    margin: auto;
 }
 
 header nav ul{
     list-style-type: none;
     display: flex;
+}
+
+/* Footer Styles
+   ============================= */
+footer {
+    margin: auto;
 }
