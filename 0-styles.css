@@ -1,0 +1,17 @@
+@import "normalize.css";
+
+body {
+    max-width: 1400px;
+    margin: 0 auto !important;
+}
+
+header {
+    background-color: blue;
+    display: flex;
+    width: 85%;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
